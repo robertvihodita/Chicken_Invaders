@@ -1,11 +1,18 @@
-class Chicken extends Entity {
+class Chicken {
     constructor(x, y) {
-        super(x, y, 40, 40, 'red');
-        this.velocity = { x: 2, y: 0 };
+        this.x = x;
+        this.y = y;
+        this.width = 40;
+        this.height = 40;
+        this.markedForDeletion = false;
     }
 
-    update() {
-        this.x += this.velocity.x;
+    update(direction) {
+        this.x += direction;
+    }
 
+    draw(ctx) {
+        ctx.fillStyle = 'red';
+        ctx.fillRect(this.x, this.y, this.width, this.height);
     }
 }
