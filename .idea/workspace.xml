@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ca4babf-74aa-467f-a2d6-11460055ec1f" name="Changes" comment="Chicken and Projectile class created" />
+    <list default="true" id="6ca4babf-74aa-467f-a2d6-11460055ec1f" name="Changes" comment="first game loop implementations,collision and chicken class updates" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,21 +20,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "robertvihodita"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;robertvihodita&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/robertvihodita/Chicken_Invaders.git",
-    "accountId": "33f8d1fe-e670-4d5c-8c7f-41d5b770e7c6"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/robertvihodita/Chicken_Invaders.git&quot;,
+    &quot;accountId&quot;: &quot;33f8d1fe-e670-4d5c-8c7f-41d5b770e7c6&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3ApvrHL9WdiHngH961VFYvOx9S0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,6 +46,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Users/rviho/AppData/Roaming/JetBrains/WebStorm2025.2/node/versions/24.14.0/node",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -62,6 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1773302525506</updated>
       <workItem from="1773302527464" duration="221000" />
+      <workItem from="1773769365790" duration="514000" />
     </task>
     <task id="LOCAL-00001" summary="Entity and Player class created">
       <option name="closed" value="true" />
@@ -79,7 +88,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773302735773</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="projectile firing system">
+      <option name="closed" value="true" />
+      <created>1773769491267</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1773769491267</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first game loop implementations,collision and chicken class updates">
+      <option name="closed" value="true" />
+      <created>1773769609768</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1773769609768</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +124,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Entity and Player class created" />
     <MESSAGE value="Chicken and Projectile class created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chicken and Projectile class created" />
+    <MESSAGE value="projectile firing system" />
+    <MESSAGE value="first game loop implementations,collision and chicken class updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="first game loop implementations,collision and chicken class updates" />
   </component>
 </project>
